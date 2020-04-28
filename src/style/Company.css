@@ -1,0 +1,23 @@
+.company-container {
+  display: flex;
+}
+
+.cell {
+  padding: 15px;
+  border: 2px solid black;
+  width: 33%;
+  display: flex;
+  justify-content: center;
+}
+
+.company-amount {
+  cursor: pointer;
+}
+
+.company-id {
+  cursor: pointer;
+}
+
+.company-name {
+  cursor: pointer;
+}
