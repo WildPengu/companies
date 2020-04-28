@@ -7,6 +7,7 @@ const Company = (props) => {
       <div className="cell">{company.id}</div>
       <div className="cell">{company.name}</div>
       <div className="cell">{company.amount}</div>
+      <div className="cell">{company.average}</div>
     </div>
   ));
 
@@ -14,22 +15,28 @@ const Company = (props) => {
     <>
       <div className="company-container">
         <div
-          className="company-id cell"
+          className="company-topic cell"
           onClick={() => props.sortCompanies("id")}
         >
           ID
         </div>
         <div
-          className="company-name cell"
+          className="company-topic cell"
           onClick={() => props.sortCompanies("name")}
         >
           Name
         </div>
         <div
-          className="company-amount cell"
+          className="company-topic cell"
           onClick={() => props.sortCompanies("amount")}
         >
           Amount
+        </div>
+        <div
+          className="company-topic cell"
+          onClick={() => props.sortCompanies("average")}
+        >
+          Average
         </div>
       </div>
       {companies}

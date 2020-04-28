@@ -5,19 +5,11 @@
 .cell {
   padding: 15px;
   border: 2px solid black;
-  width: 33%;
+  width: 25%;
   display: flex;
   justify-content: center;
 }
 
-.company-amount {
-  cursor: pointer;
-}
-
-.company-id {
-  cursor: pointer;
-}
-
-.company-name {
+.company-topic {
   cursor: pointer;
 }
